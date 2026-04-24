@@ -1,0 +1,267 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi", "hello", "hey", "good morning", "good evening", "good afternoon",
+        "hey there", "whats up", "what's up", "yo", "sup", "howdy",
+        "hi there", "hello there", "greetings", "hey fitbuddy", "hi fitbuddy"
+      ],
+      "responses": [
+        "Hey! I'm FitBuddy, your workout planning buddy. Tell me your goal (strength, cardio, flexibility), how much time you have, or which muscle group you want to train, and I'll build something for you.",
+        "Hi there! Ready to move? I can suggest a workout based on your goal, the time you have, or the equipment you own. Just ask.",
+        "What's up! I help people build quick workouts without the overthinking. Want a 15-min cardio session, a chest day, or a full beginner plan?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye", "goodbye", "see you", "see ya", "later", "gotta go",
+        "talk to you later", "cya", "peace", "exit", "quit", "im done",
+        "i'm done", "thanks bye", "im out", "i'm out"
+      ],
+      "responses": [
+        "Go crush it! Come back whenever you need another workout.",
+        "Later! Don't skip leg day.",
+        "Peace out. Stay consistent — that's the real secret."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks", "thank you", "thx", "ty", "appreciate it",
+        "thanks a lot", "thank you so much", "youre helpful", "you're helpful",
+        "that helps", "that's helpful", "awesome thanks", "cool thanks"
+      ],
+      "responses": [
+        "Anytime. Want another workout or a different muscle group?",
+        "You got it. Let me know if you want to tweak the plan or try something else.",
+        "No problem! Hit me up if you need more ideas."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help", "what can you do", "how does this work", "what are your features",
+        "commands", "menu", "options", "how do i use this", "what can i ask you",
+        "what do you do"
+      ],
+      "responses": [
+        "Here's what I can do:\n• Suggest workouts by goal — try 'strength workout' or 'cardio plan'\n• Build by time — try '15 minute workout' or 'quick 10 min session'\n• Target muscle groups — say 'chest exercises', 'leg day', 'abs workout', 'back day', 'arm workout', 'shoulder workout'\n• Beginner-friendly plans — ask 'beginner workout'\n• No-equipment options — say 'bodyweight workout' or 'home workout'\n• Nutrition & recovery tips — ask 'how much protein' or 'how often should I rest'\n• Motivation when you're tired — say 'I'm unmotivated' or 'give me motivation'\nGo ahead, ask away!"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "who are you", "what are you", "whats your name", "what's your name",
+        "your name", "tell me about yourself", "who made you"
+      ],
+      "responses": [
+        "I'm FitBuddy — a fitness chatbot built for students who want quick, no-BS workout ideas. I don't sell supplements, I don't push fads, I just give you solid routines you can actually do."
+      ]
+    },
+    {
+      "tag": "strength",
+      "patterns": [
+        "strength workout", "build muscle", "get stronger", "strength training",
+        "lifting plan", "muscle building", "hypertrophy", "bulk up", "gain muscle",
+        "strength plan"
+      ],
+      "responses": [
+        "Solid strength workout (45 min, full body):\n• Barbell Squat — 4 sets x 6 reps\n• Bench Press — 4 sets x 6 reps\n• Bent-Over Row — 3 sets x 8 reps\n• Overhead Press — 3 sets x 8 reps\n• Romanian Deadlift — 3 sets x 8 reps\n• Plank — 3 sets x 45 sec\n\nRest 2-3 min between heavy sets. Go for 80-85% of your max. Want a split routine instead (chest/back/legs on different days)?"
+      ]
+    },
+    {
+      "tag": "cardio",
+      "patterns": [
+        "cardio", "cardio workout", "cardio plan", "running plan", "hiit",
+        "burn calories", "lose weight", "fat loss", "endurance workout",
+        "aerobic workout", "conditioning"
+      ],
+      "responses": [
+        "Here's a HIIT cardio session (20 min, no equipment):\n• 5 min warm-up — light jog or jumping jacks\n• 30 sec high knees / 30 sec rest — 4 rounds\n• 30 sec burpees / 30 sec rest — 4 rounds\n• 30 sec mountain climbers / 30 sec rest — 4 rounds\n• 5 min cooldown walk + stretching\n\nIf you prefer steady-state: 25-30 min of jogging, cycling, or rowing at a pace where you can barely hold a conversation."
+      ]
+    },
+    {
+      "tag": "flexibility",
+      "patterns": [
+        "stretching", "flexibility", "stretch routine", "yoga",
+        "mobility workout", "flexibility plan", "stretches",
+        "improve flexibility", "tight muscles"
+      ],
+      "responses": [
+        "10-min full-body mobility routine:\n• Cat-cow — 1 min\n• World's greatest stretch — 1 min each side\n• Downward dog to cobra flow — 1 min\n• Standing forward fold — 1 min\n• Pigeon pose — 1 min each side\n• Seated twist — 30 sec each side\n• Child's pose — 1 min\n\nHold each stretch, breathe deep, and don't bounce. Do this daily and you'll see real gains in 3-4 weeks."
+      ]
+    },
+    {
+      "tag": "chest",
+      "patterns": [
+        "chest workout", "chest day", "chest exercises", "pec workout",
+        "pectoral exercises", "train chest", "chest routine"
+      ],
+      "responses": [
+        "Chest day (40 min):\n• Barbell Bench Press — 4 sets x 6-8 reps\n• Incline Dumbbell Press — 3 sets x 8-10 reps\n• Dumbbell Flyes — 3 sets x 10-12 reps\n• Push-Ups (as many as possible) — 3 sets to failure\n• Cable Crossover — 3 sets x 12 reps\n\nFocus on the squeeze at the top. No gym? Try: push-ups, diamond push-ups, incline push-ups, decline push-ups — 4 sets each, 30 sec rest."
+      ]
+    },
+    {
+      "tag": "back",
+      "patterns": [
+        "back workout", "back day", "back exercises", "train back",
+        "lat workout", "pull day", "back routine"
+      ],
+      "responses": [
+        "Back day (40 min):\n• Pull-Ups — 4 sets x max reps\n• Bent-Over Barbell Row — 4 sets x 8 reps\n• Lat Pulldown — 3 sets x 10 reps\n• Seated Cable Row — 3 sets x 10 reps\n• Face Pulls — 3 sets x 15 reps (great for posture)\n• Dumbbell Shrugs — 3 sets x 12 reps\n\nThink 'pull with your elbows, not your hands' — it helps engage your back instead of your arms."
+      ]
+    },
+    {
+      "tag": "legs",
+      "patterns": [
+        "leg day", "leg workout", "leg exercises", "train legs",
+        "quad workout", "hamstring workout", "glute workout", "lower body",
+        "booty workout", "legs routine"
+      ],
+      "responses": [
+        "Leg day (45 min):\n• Back Squat — 4 sets x 6-8 reps\n• Romanian Deadlift — 4 sets x 8 reps\n• Walking Lunges — 3 sets x 12 each leg\n• Leg Press — 3 sets x 10 reps\n• Leg Curl — 3 sets x 12 reps\n• Calf Raises — 4 sets x 15 reps\n\nWarning: you will feel this tomorrow. That's how you know it worked. No equipment? Swap in: goblet squats, Bulgarian split squats, glute bridges, jumping lunges."
+      ]
+    },
+    {
+      "tag": "arms",
+      "patterns": [
+        "arm workout", "arm day", "arm exercises", "biceps workout",
+        "triceps workout", "train arms", "arms routine", "bicep and tricep"
+      ],
+      "responses": [
+        "Arm day (30 min):\n• Barbell Curl — 4 sets x 10 reps\n• Close-Grip Bench Press — 3 sets x 8 reps\n• Hammer Curl — 3 sets x 10 reps\n• Tricep Dips — 3 sets x 10-12 reps\n• Preacher Curl — 3 sets x 12 reps\n• Tricep Rope Pushdown — 3 sets x 12 reps\n\nSlow on the way down (3 seconds) — that's where the muscle grows. Don't ego lift; form over weight."
+      ]
+    },
+    {
+      "tag": "shoulders",
+      "patterns": [
+        "shoulder workout", "shoulder day", "shoulder exercises",
+        "delts workout", "train shoulders", "shoulders routine"
+      ],
+      "responses": [
+        "Shoulder day (35 min):\n• Overhead Barbell Press — 4 sets x 6-8 reps\n• Dumbbell Lateral Raise — 4 sets x 12 reps\n• Arnold Press — 3 sets x 10 reps\n• Rear Delt Flyes — 3 sets x 12 reps\n• Face Pulls — 3 sets x 15 reps\n• Shrugs — 3 sets x 12 reps\n\nLateral raises are the #1 move for that capped, wide shoulder look. Go lighter than you think and control the weight."
+      ]
+    },
+    {
+      "tag": "abs",
+      "patterns": [
+        "abs workout", "core workout", "ab exercises", "six pack",
+        "train abs", "core routine", "abdominal workout", "ab day"
+      ],
+      "responses": [
+        "Core circuit (15 min, no equipment):\n• Plank — 45 sec\n• Bicycle Crunches — 20 reps\n• Russian Twists — 30 reps\n• Leg Raises — 15 reps\n• Dead Bug — 10 each side\n• Mountain Climbers — 30 sec\n\nRepeat 3 rounds, 30 sec rest between rounds. Real talk: abs are made in the kitchen. No amount of crunches will show them if you're not dialed in on nutrition."
+      ]
+    },
+    {
+      "tag": "quick_workout",
+      "patterns": [
+        "quick workout", "10 minute workout", "10 min workout",
+        "fast workout", "short workout", "no time workout",
+        "5 minute workout", "5 min workout", "super quick"
+      ],
+      "responses": [
+        "10-minute full-body blaster (no equipment):\n• Jumping Jacks — 45 sec\n• Push-Ups — 45 sec\n• Bodyweight Squats — 45 sec\n• Plank — 45 sec\n• High Knees — 45 sec\n• 15 sec rest between each\n\nRepeat twice. You'll be sweating. Quick, effective, done before your coffee gets cold."
+      ]
+    },
+    {
+      "tag": "medium_workout",
+      "patterns": [
+        "15 minute workout", "15 min workout", "20 minute workout",
+        "20 min workout", "half hour workout", "30 minute workout",
+        "30 min workout", "moderate workout"
+      ],
+      "responses": [
+        "20-minute full-body circuit:\n• Goblet Squats — 12 reps\n• Push-Ups — 10 reps\n• Dumbbell Rows — 10 each side\n• Reverse Lunges — 10 each leg\n• Plank — 45 sec\n• Jumping Jacks — 30 sec\n\nRepeat 4 rounds, 30 sec rest between rounds. If you don't have dumbbells, use a backpack stuffed with books — seriously works."
+      ]
+    },
+    {
+      "tag": "beginner",
+      "patterns": [
+        "beginner workout", "starter plan", "just starting", "new to working out",
+        "never worked out", "first time", "beginner plan",
+        "easy workout", "beginner routine", "im a beginner", "i'm a beginner",
+        "where do i start"
+      ],
+      "responses": [
+        "Beginner-friendly 3-day plan:\n\n**Day 1 — Full Body A:**\n• Bodyweight Squats — 3 x 10\n• Push-Ups (knees OK) — 3 x 8\n• Dumbbell Row — 3 x 10 each side\n• Plank — 3 x 20 sec\n\n**Day 2 — Rest or walk**\n\n**Day 3 — Full Body B:**\n• Glute Bridges — 3 x 12\n• Incline Push-Ups — 3 x 10\n• Superman Hold — 3 x 20 sec\n• Dead Bug — 3 x 8 each side\n\n**Day 4 — Rest**\n\n**Day 5 — repeat Day 1**\n\nDo this for 3-4 weeks, then increase reps or add weight. Don't skip rest days — that's when you actually grow."
+      ]
+    },
+    {
+      "tag": "home_workout",
+      "patterns": [
+        "home workout", "no equipment", "bodyweight workout",
+        "no gym", "at home exercises", "no dumbbells", "minimal equipment",
+        "workout at home", "no weights"
+      ],
+      "responses": [
+        "No-equipment home workout (25 min):\n• Jumping Jacks — 1 min (warm-up)\n• Push-Ups — 3 x 12\n• Bodyweight Squats — 3 x 15\n• Reverse Lunges — 3 x 10 each leg\n• Pike Push-Ups — 3 x 8 (shoulders)\n• Superman Hold — 3 x 20 sec (back)\n• Plank — 3 x 45 sec\n• Glute Bridges — 3 x 15\n\nNo excuses, no gym membership needed. If it feels too easy, slow down the reps (3 sec down, 1 sec up) — it'll humble you fast."
+      ]
+    },
+    {
+      "tag": "protein",
+      "patterns": [
+        "how much protein", "protein intake", "protein per day",
+        "protein grams", "daily protein", "how much protein do i need"
+      ],
+      "responses": [
+        "General rule: aim for 0.7 to 1 gram of protein per pound of bodyweight if you're trying to build muscle. So if you weigh 160 lbs, that's around 112-160g per day. For maintenance, 0.5-0.6g per pound is enough. Hit it through chicken, eggs, Greek yogurt, cottage cheese, tofu, lentils, or a protein shake if you can't get it from food."
+      ]
+    },
+    {
+      "tag": "rest_days",
+      "patterns": [
+        "rest day", "how often should i rest", "rest days per week",
+        "how often to work out", "recovery days", "do i need rest days",
+        "should i work out every day"
+      ],
+      "responses": [
+        "Rest matters as much as training. For beginners, 3-4 workout days per week is the sweet spot. For intermediate/advanced lifters, 4-5 days with at least 1-2 full rest days. If you're sore for more than 3 days, that's a sign you're overdoing it. Sleep 7-9 hours, hydrate, eat enough — that's when the actual muscle building happens."
+      ]
+    },
+    {
+      "tag": "warmup",
+      "patterns": [
+        "warm up", "warmup routine", "how to warm up", "pre workout stretch",
+        "dynamic warmup", "before workout", "warm up exercises"
+      ],
+      "responses": [
+        "5-min dynamic warm-up:\n• Arm circles — 30 sec each direction\n• Leg swings — 30 sec each leg\n• Walking lunges — 10 steps\n• Bodyweight squats — 10 reps\n• High knees — 30 sec\n• Jumping jacks — 30 sec\n• Hip circles — 30 sec each direction\n\nSkip static stretching before lifting — it actually reduces strength. Save the long stretches for after your workout."
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "im unmotivated", "i'm unmotivated", "no motivation", "give me motivation",
+        "im lazy", "i'm lazy", "dont want to work out", "don't want to work out",
+        "cant be bothered", "can't be bothered", "feeling lazy", "need motivation",
+        "help me get motivated"
+      ],
+      "responses": [
+        "Real talk: motivation is overrated. It shows up *after* you start, not before. Tell yourself you'll do just 5 minutes — you'll almost always end up doing the full workout. The hardest part is putting on the shoes.",
+        "Nobody feels like it every time. The ones who stay in shape are just the ones who show up on the bad days too. Do the smallest version of the workout if you have to — even 10 push-ups counts.",
+        "Skip the motivation, build the habit. Same time, same place, no thinking. Your future self will thank you."
+      ]
+    },
+    {
+      "tag": "hydration",
+      "patterns": [
+        "how much water", "water intake", "hydration tips",
+        "should i drink water", "water per day", "staying hydrated"
+      ],
+      "responses": [
+        "Aim for around 0.5 to 1 oz of water per pound of bodyweight daily — so a 150 lb person needs roughly 75-150 oz. Drink more if you're training hard or it's hot. Quick check: if your pee is pale yellow, you're hydrated. Dark yellow means drink up."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "Hmm, I didn't quite catch that. Try something like 'chest workout', '15 minute routine', or 'beginner plan'. Type 'help' to see everything I can do.",
+        "Not sure I follow. I work best with fitness-specific questions — muscle groups, workout times, goals (strength/cardio/flexibility), or tips like protein intake and rest days.",
+        "Can you rephrase that? For example: 'quick workout', 'leg day', 'how much protein', or 'give me motivation'."
+      ]
+    }
+  ]
+}
