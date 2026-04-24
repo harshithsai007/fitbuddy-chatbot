@@ -36,4 +36,4 @@ def chat():
 if __name__ == "__main__":
     # debug=True auto-reloads when you edit code — handy while developing.
     # For the demo, this is fine; for production you'd turn it off.
-    app.run(debug=True, host="0.0.0.0", port=5000)
+    app.run(debug=True, host="0.0.0.0", port=5050)
